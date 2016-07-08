@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "To-do List"; ObjectID = "CHm-UX-nen"; */
+"CHm-UX-nen.text" = "To-do List";
+
+/* Class = "UIButton"; normalTitle = "Insert"; ObjectID = "bMV-2M-1Nh"; */
+"bMV-2M-1Nh.normalTitle" = "Insert";
+
+/* Class = "UIBarButtonItem"; title = "Clear"; ObjectID = "ues-TE-3jo"; */
+"ues-TE-3jo.title" = "Clear";
