@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB8DBE21D3137D600A39955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8DBE11D3137D600A39955 /* main.m */; };
+		DAB8DBE51D3137D600A39955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8DBE41D3137D600A39955 /* AppDelegate.m */; };
+		DAB8DBE81D3137D600A39955 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8DBE71D3137D600A39955 /* ViewController.m */; };
+		DAB8DBEB1D3137D600A39955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB8DBE91D3137D600A39955 /* Main.storyboard */; };
+		DAB8DBED1D3137D600A39955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB8DBEC1D3137D600A39955 /* Assets.xcassets */; };
+		DAB8DBF01D3137D600A39955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB8DBEE1D3137D600A39955 /* LaunchScreen.storyboard */; };
+		DAB8DBFB1D3137D600A39955 /* To_do_List2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8DBFA1D3137D600A39955 /* To_do_List2_0Tests.m */; };
+		DAB8DC061D3137D600A39955 /* To_do_List2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8DC051D3137D600A39955 /* To_do_List2_0UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB8DBF71D3137D600A39955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB8DBD51D3137D600A39955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB8DBDC1D3137D600A39955;
+			remoteInfo = "To-do List2.0";
+		};
+		DAB8DC021D3137D600A39955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB8DBD51D3137D600A39955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB8DBDC1D3137D600A39955;
+			remoteInfo = "To-do List2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB8DBDD1D3137D600A39955 /* To-do List2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do List2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB8DBE11D3137D600A39955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB8DBE31D3137D600A39955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB8DBE41D3137D600A39955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB8DBE61D3137D600A39955 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB8DBE71D3137D600A39955 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB8DBEA1D3137D600A39955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB8DBEC1D3137D600A39955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB8DBEF1D3137D600A39955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB8DBF11D3137D600A39955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB8DBF61D3137D600A39955 /* To-do List2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-do List2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB8DBFA1D3137D600A39955 /* To_do_List2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = To_do_List2_0Tests.m; sourceTree = "<group>"; };
+		DAB8DBFC1D3137D600A39955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB8DC011D3137D600A39955 /* To-do List2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-do List2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB8DC051D3137D600A39955 /* To_do_List2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = To_do_List2_0UITests.m; sourceTree = "<group>"; };
+		DAB8DC071D3137D600A39955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB8DBDA1D3137D600A39955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBF31D3137D600A39955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBFE1D3137D600A39955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB8DBD41D3137D600A39955 = {
+			isa = PBXGroup;
+			children = (
+				DAB8DBDF1D3137D600A39955 /* To-do List2.0 */,
+				DAB8DBF91D3137D600A39955 /* To-do List2.0Tests */,
+				DAB8DC041D3137D600A39955 /* To-do List2.0UITests */,
+				DAB8DBDE1D3137D600A39955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB8DBDE1D3137D600A39955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8DBDD1D3137D600A39955 /* To-do List2.0.app */,
+				DAB8DBF61D3137D600A39955 /* To-do List2.0Tests.xctest */,
+				DAB8DC011D3137D600A39955 /* To-do List2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB8DBDF1D3137D600A39955 /* To-do List2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8DBE31D3137D600A39955 /* AppDelegate.h */,
+				DAB8DBE41D3137D600A39955 /* AppDelegate.m */,
+				DAB8DBE61D3137D600A39955 /* ViewController.h */,
+				DAB8DBE71D3137D600A39955 /* ViewController.m */,
+				DAB8DBE91D3137D600A39955 /* Main.storyboard */,
+				DAB8DBEC1D3137D600A39955 /* Assets.xcassets */,
+				DAB8DBEE1D3137D600A39955 /* LaunchScreen.storyboard */,
+				DAB8DBF11D3137D600A39955 /* Info.plist */,
+				DAB8DBE01D3137D600A39955 /* Supporting Files */,
+			);
+			path = "To-do List2.0";
+			sourceTree = "<group>";
+		};
+		DAB8DBE01D3137D600A39955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8DBE11D3137D600A39955 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB8DBF91D3137D600A39955 /* To-do List2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8DBFA1D3137D600A39955 /* To_do_List2_0Tests.m */,
+				DAB8DBFC1D3137D600A39955 /* Info.plist */,
+			);
+			path = "To-do List2.0Tests";
+			sourceTree = "<group>";
+		};
+		DAB8DC041D3137D600A39955 /* To-do List2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8DC051D3137D600A39955 /* To_do_List2_0UITests.m */,
+				DAB8DC071D3137D600A39955 /* Info.plist */,
+			);
+			path = "To-do List2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB8DBDC1D3137D600A39955 /* To-do List2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB8DC0A1D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0" */;
+			buildPhases = (
+				DAB8DBD91D3137D600A39955 /* Sources */,
+				DAB8DBDA1D3137D600A39955 /* Frameworks */,
+				DAB8DBDB1D3137D600A39955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "To-do List2.0";
+			productName = "To-do List2.0";
+			productReference = DAB8DBDD1D3137D600A39955 /* To-do List2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB8DBF51D3137D600A39955 /* To-do List2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB8DC0D1D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0Tests" */;
+			buildPhases = (
+				DAB8DBF21D3137D600A39955 /* Sources */,
+				DAB8DBF31D3137D600A39955 /* Frameworks */,
+				DAB8DBF41D3137D600A39955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB8DBF81D3137D600A39955 /* PBXTargetDependency */,
+			);
+			name = "To-do List2.0Tests";
+			productName = "To-do List2.0Tests";
+			productReference = DAB8DBF61D3137D600A39955 /* To-do List2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB8DC001D3137D600A39955 /* To-do List2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB8DC101D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0UITests" */;
+			buildPhases = (
+				DAB8DBFD1D3137D600A39955 /* Sources */,
+				DAB8DBFE1D3137D600A39955 /* Frameworks */,
+				DAB8DBFF1D3137D600A39955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB8DC031D3137D600A39955 /* PBXTargetDependency */,
+			);
+			name = "To-do List2.0UITests";
+			productName = "To-do List2.0UITests";
+			productReference = DAB8DC011D3137D600A39955 /* To-do List2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB8DBD51D3137D600A39955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lxh_miao;
+				TargetAttributes = {
+					DAB8DBDC1D3137D600A39955 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DAB8DBF51D3137D600A39955 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DAB8DBDC1D3137D600A39955;
+					};
+					DAB8DC001D3137D600A39955 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DAB8DBDC1D3137D600A39955;
+					};
+				};
+			};
+			buildConfigurationList = DAB8DBD81D3137D600A39955 /* Build configuration list for PBXProject "To-do List2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB8DBD41D3137D600A39955;
+			productRefGroup = DAB8DBDE1D3137D600A39955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB8DBDC1D3137D600A39955 /* To-do List2.0 */,
+				DAB8DBF51D3137D600A39955 /* To-do List2.0Tests */,
+				DAB8DC001D3137D600A39955 /* To-do List2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB8DBDB1D3137D600A39955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB8DBF01D3137D600A39955 /* LaunchScreen.storyboard in Resources */,
+				DAB8DBED1D3137D600A39955 /* Assets.xcassets in Resources */,
+				DAB8DBEB1D3137D600A39955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBF41D3137D600A39955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBFF1D3137D600A39955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB8DBD91D3137D600A39955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB8DBE81D3137D600A39955 /* ViewController.m in Sources */,
+				DAB8DBE51D3137D600A39955 /* AppDelegate.m in Sources */,
+				DAB8DBE21D3137D600A39955 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBF21D3137D600A39955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB8DBFB1D3137D600A39955 /* To_do_List2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB8DBFD1D3137D600A39955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB8DC061D3137D600A39955 /* To_do_List2_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB8DBF81D3137D600A39955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB8DBDC1D3137D600A39955 /* To-do List2.0 */;
+			targetProxy = DAB8DBF71D3137D600A39955 /* PBXContainerItemProxy */;
+		};
+		DAB8DC031D3137D600A39955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB8DBDC1D3137D600A39955 /* To-do List2.0 */;
+			targetProxy = DAB8DC021D3137D600A39955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB8DBE91D3137D600A39955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB8DBEA1D3137D600A39955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB8DBEE1D3137D600A39955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB8DBEF1D3137D600A39955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB8DC081D3137D600A39955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB8DC091D3137D600A39955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB8DC0B1D3137D600A39955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "To-do List2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB8DC0C1D3137D600A39955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "To-do List2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB8DC0E1D3137D600A39955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "To-do List2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/To-do List2.0.app/To-do List2.0";
+			};
+			name = Debug;
+		};
+		DAB8DC0F1D3137D600A39955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "To-do List2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/To-do List2.0.app/To-do List2.0";
+			};
+			name = Release;
+		};
+		DAB8DC111D3137D600A39955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "To-do List2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "To-do List2.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB8DC121D3137D600A39955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "To-do List2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxh.To-do-List2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "To-do List2.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB8DBD81D3137D600A39955 /* Build configuration list for PBXProject "To-do List2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DC081D3137D600A39955 /* Debug */,
+				DAB8DC091D3137D600A39955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB8DC0A1D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DC0B1D3137D600A39955 /* Debug */,
+				DAB8DC0C1D3137D600A39955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB8DC0D1D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DC0E1D3137D600A39955 /* Debug */,
+				DAB8DC0F1D3137D600A39955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB8DC101D3137D600A39955 /* Build configuration list for PBXNativeTarget "To-do List2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DC111D3137D600A39955 /* Debug */,
+				DAB8DC121D3137D600A39955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB8DBD51D3137D600A39955 /* Project object */;
+}
