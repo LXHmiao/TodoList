@@ -60,12 +60,13 @@
     return cell;
 }
 
+#pragma mark - 提交编辑 并进行删除操作
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // 当编辑类型为删除类型才进行删除操作
     if (editingStyle != UITableViewCellEditingStyleDelete)  return;
-
+    // 在_tasks模型中移除当前对象，然后刷新tableView
     [self.tasks removeObjectAtIndex:indexPath.row];
-    
     [tableView reloadData];
 }
 
@@ -75,11 +76,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - 插入任务操作，点击insert将输入的tasks加入_tasks并在tableView显示
 - (IBAction)insertTasks:(UIButton *)sender {
+    // 点击按钮即将editing初始化
     self.tableView.editing = NO;
-    
+    // 取出输入的内容
     NSString *text = self.textField.text;
-    
     if (text.length == 0) {
         return;
     }
@@ -88,24 +90,28 @@
 //    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 //    formatter.dateFormat = @"MM-dd HH:mm";
 //    NSString *time = [formatter stringFromDate:date];
-    
+    // 将取出的内容加入_tasks中
     NSString *task = text;
     //[NSString stringWithFormat:@"%@  %@", time, text];
-    
     [self.tasks addObject:task];
     
+    // 刷新tableView
     [self.tableView reloadData];
     
+    // 最后将textField清空
     [self.textField setText:@""];
     [self.textField resignFirstResponder];
-    
 }
+
+#pragma mark - 清空任务操作，采用了UIAlertController，点击按钮后弹框
 - (IBAction)clearTasks:(UIBarButtonItem *)sender {
+    // 新建一个UIAlertController并显示
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Delete all tasks or not" message:nil preferredStyle:UIAlertControllerStyleAlert];
     [self presentViewController:alertController animated:YES completion:^{
         
     }];
-    UIAlertAction *Ok = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    // 新建两个UIAlertAction按钮并处理相应的事件
+    UIAlertAction *Ok = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         [self.tasks removeAllObjects];
         
         [self.tableView reloadData];
@@ -113,12 +119,13 @@
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
         
     }];
+    // 将UIAlertAction加入到UIAlertController中
     [alertController addAction:Ok];
     [alertController addAction:cancel];
 }
 
+#pragma mark - 点击delete按钮进入tableView编辑模式
 - (IBAction)deleteTasks:(UIBarButtonItem *)sender {
-    
     BOOL result = !self.tableView.editing;
     [self.tableView setEditing:result animated:YES];
     
