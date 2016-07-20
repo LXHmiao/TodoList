@@ -85,11 +85,7 @@
     if (text.length == 0) {
         return;
     }
-//    
-//    NSDate *date = [NSDate date];
-//    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-//    formatter.dateFormat = @"MM-dd HH:mm";
-//    NSString *time = [formatter stringFromDate:date];
+
     // 将取出的内容加入_tasks中
     NSString *task = text;
     //[NSString stringWithFormat:@"%@  %@", time, text];
@@ -111,12 +107,12 @@
         
     }];
     // 新建两个UIAlertAction按钮并处理相应的事件
-    UIAlertAction *Ok = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *Ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         [self.tasks removeAllObjects];
         
         [self.tableView reloadData];
     }];
-    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
         
     }];
     // 将UIAlertAction加入到UIAlertController中

@@ -35,6 +35,20 @@
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *enterYourTaskHereTextField = app.textFields[@"enter your task here"];
+    [enterYourTaskHereTextField tap];
+    [enterYourTaskHereTextField typeText:@"q"];
+    
+    XCUIElement *insertButton = app.buttons[@"Insert"];
+    [insertButton tap];
+    [enterYourTaskHereTextField tap];
+    [enterYourTaskHereTextField typeText:@"w"];
+    [insertButton tap];
+    [app.toolbars.buttons[@"Clear"] tap];
+    
 }
+
 
 @end
