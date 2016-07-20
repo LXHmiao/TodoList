@@ -82,7 +82,13 @@
     self.tableView.editing = NO;
     // 取出输入的内容
     NSString *text = self.textField.text;
-    if (text.length == 0) {
+    int count = 0;
+    for (int i = 0; i < text.length; i++) {
+        if ([text characterAtIndex:i] == ' ') {
+            count++;
+        }
+    }
+    if (text.length == 0 || count == text.length) {
         return;
     }
 
